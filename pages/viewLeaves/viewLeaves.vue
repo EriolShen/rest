@@ -1180,6 +1180,6 @@ page {
   display: block;
   right: 6%;
   top: 276px;
-  bottom: 332px;
+  /*bottom: 332px;*/
 }
 </style> 
