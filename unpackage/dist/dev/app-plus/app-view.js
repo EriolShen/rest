@@ -251,71 +251,84 @@ var render = function() {
         1
       ),
       _c(
-        "v-uni-view",
+        "div",
         { staticClass: _vm._$g(7, "sc"), attrs: { _i: 7 } },
         [
           _c(
-            "v-uni-text",
-            { attrs: { _i: 8 } },
-            [
-              _vm._v("# 贩卖无双亲!!!贩卖无双亲!!!贩卖无双亲!!!"),
-              _c("br", { attrs: { _i: 9 } }),
-              _c("br", { attrs: { _i: 10 } }),
-              _vm._v(
-                "# 本软件完全免费，如您通过付费渠道获取本软件，则已上当受骗!"
-              ),
-              _c("br", { attrs: { _i: 11 } }),
-              _vm._v(
-                "## 本软件仅供学习研究使用，请勿用于任何商业非法用途，否则造成任何后果作者概不负责！！！"
-              ),
-              _c("br", { attrs: { _i: 12 } }),
-              _vm._v(
-                "## 请大家严格遵守学校和国家的相关规定，软件仅供学习研究使用，请勿用于商业及非法用途。"
-              ),
-              _c("br", { attrs: { _i: 13 } }),
-              _c("br", { attrs: { _i: 14 } }),
-              _vm._v("### 使用本软件即代表同意以上内容!"),
-              _c("br", { attrs: { _i: 15 } }),
-              _c("br", { attrs: { _i: 16 } }),
-              _vm._v("2022-3-13 更新内容:"),
-              _c("br", { attrs: { _i: 17 } }),
-              _vm._v('- 增加"宿舍信息"。'),
-              _c("br", { attrs: { _i: 18 } }),
-              _vm._v('- 增加"个人信息"字样。'),
-              _c("br", { attrs: { _i: 19 } }),
-              _vm._v('- 修改"如何销假?"背景颜色。'),
-              _c("br", { attrs: { _i: 20 } }),
-              _vm._v('- 修改"紧急联系人"手机号后移一位。'),
-              _c("br", { attrs: { _i: 21 } }),
-              _vm._v('- 修改"请假原因"多行顶格为与上行对齐。'),
-              _c("br", { attrs: { _i: 22 } }),
-              _vm._v("- 优化布局,细节化,更加接近真实布局。"),
-              _c("br", { attrs: { _i: 23 } }),
-              _vm._v('- 增加"需要离校"为可选项,且自动变色。'),
-              _c("br", { attrs: { _i: 24 } }),
-              _vm._v(
-                '- 修复"当前时间"与"发起申请"时间中月份小于10月不显示0的bug。'
-              ),
-              _c("br", { attrs: { _i: 25 } }),
-              _vm._v("- 不想写了..."),
-              _c("br", { attrs: { _i: 26 } })
-            ],
-            1
-          )
+            "p",
+            {
+              staticStyle: {
+                color: "black",
+                "font-size": "18px",
+                height: "20px"
+              },
+              attrs: { _i: 8 }
+            },
+            [_vm._v("售卖无双亲!!!售卖无双亲!!!售卖无双亲!!!")]
+          ),
+          _c("br", { attrs: { _i: 9 } }),
+          _c("p", { attrs: { _i: 10 } }, [
+            _vm._v("本软件完全免费，如您通过付费渠道获取本软件，则已上当受骗!")
+          ]),
+          _c("p", { attrs: { _i: 11 } }, [
+            _vm._v(
+              "本软件仅供学习研究使用，请勿用于任何商业非法用途，否则造成任何后果作者概不负责！！！"
+            )
+          ]),
+          _c("p", { attrs: { _i: 12 } }, [
+            _vm._v(
+              "请大家严格遵守学校和国家的相关规定，软件仅供学习研究使用，请勿用于商业及非法用途。"
+            )
+          ]),
+          _c("p", { attrs: { _i: 13 } }, [
+            _vm._v("使用本软件即代表同意以上内容!")
+          ]),
+          _c("br", { attrs: { _i: 14 } }),
+          _c("p", { attrs: { _i: 15 } }, [_vm._v("2022-3-31更新内容:")]),
+          _c("br", { attrs: { _i: 16 } }),
+          _c("p", { attrs: { _i: 17 } }, [_vm._v("-修改文字间隙")]),
+          _c("p", { attrs: { _i: 18 } }, [
+            _vm._v('-修复部分手机"请假时长"文本框位移问题')
+          ]),
+          _c("br", { attrs: { _i: 19 } }),
+          _c("p", { attrs: { _i: 20 } }, [_vm._v("2022-3-13更新内容:")]),
+          _c("br", { attrs: { _i: 21 } }),
+          _c("p", { attrs: { _i: 22 } }, [_vm._v('-增加"个人信息"字样。')]),
+          _c("p", { attrs: { _i: 23 } }, [
+            _vm._v('-修改"如何销假?"背景颜色。')
+          ]),
+          _c("p", { attrs: { _i: 24 } }, [
+            _vm._v('-修改"紧急联系人"手机号后移一位。')
+          ]),
+          _c("p", { attrs: { _i: 25 } }, [
+            _vm._v('-修改"请假原因"多行顶格为与上行对齐。')
+          ]),
+          _c("p", { attrs: { _i: 26 } }, [
+            _vm._v("-优化布局,细节化,更加接近真实布局。")
+          ]),
+          _c("p", { attrs: { _i: 27 } }, [
+            _vm._v('-增加"需要离校"为可选项,且自动变色。')
+          ]),
+          _c("p", { attrs: { _i: 28 } }, [
+            _vm._v(
+              '-修复"当前时间"与"发起申请"时间中月份小于10月不显示0的问题。'
+            )
+          ]),
+          _c("p", { attrs: { _i: 29 } }, [_vm._v("-不想写了...")])
         ],
         1
       ),
       _c(
         "v-uni-view",
-        { staticClass: _vm._$g(27, "sc"), attrs: { _i: 27 } },
-        [_c("v-uni-image", { attrs: { src: _vm._$g(28, "a-src"), _i: 28 } })],
+        { staticClass: _vm._$g(30, "sc"), attrs: { _i: 30 } },
+        [_c("v-uni-image", { attrs: { src: _vm._$g(31, "a-src"), _i: 31 } })],
         1
       ),
       _c(
         "v-uni-view",
         {
-          staticClass: _vm._$g(29, "sc"),
-          attrs: { _i: 29 },
+          staticClass: _vm._$g(32, "sc"),
+          attrs: { _i: 32 },
           on: {
             click: function($event) {
               return _vm.$handleViewEvent($event)
@@ -416,7 +429,7 @@ if(false) {}
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../APP/HBuilderX/plugins/uniapp-cli/node_modules/css-loader/dist/runtime/api.js */ 10);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "\n.text1 {\r\n  position: absolute;\r\n  top: 105px;\r\n  left: 88px;\r\n  z-index: 2;\r\n  color: rgb(255, 255, 255);\n}\n.text2 {\r\n  position: absolute;\r\n  top: 130px;\r\n  left: 88px;\r\n  z-index: 2;\r\n  font-size: 15px;\r\n  color: rgb(207, 196, 196);\n}\n.text3 {\r\n  position: absolute;\r\n  top: 50px;\r\n  left: 80%;\r\n  z-index: 2;\r\n  color: rgb(255, 255, 255);\n}\n.text {\r\n  position: absolute;\r\n  top: 200px;\r\n  left: 20px;\r\n  right: 10px;\r\n  z-index: 2;\r\n  line-height: 20px;\r\n  font-size: 15px;\r\n  letter-spacing: 1px;\r\n  color: rgb(8, 8, 8);\n}\n.nav-left uni-image {\r\n  width: 100%;\r\n  height: 180px;\n}\n.bottom-btn1 {\r\n  position: fixed;\r\n  bottom: 0px;\r\n  background-color: #2f98e9;\r\n  width: 100%;\r\n  height: 85rpx;\r\n  color: white;\r\n  text-align: center;\r\n  line-height: 85rpx;\r\n  font-size: 32rpx;\n}\r\n", ""]);
+exports.push([module.i, "\n.text1 {\r\n  position: fixed;\r\n  top: 105px;\r\n  left: 88px;\r\n  z-index: 2;\r\n  color: rgb(255, 255, 255);\n}\n.text2 {\r\n  position: fixed;\r\n  top: 130px;\r\n  left: 88px;\r\n  z-index: 2;\r\n  font-size: 15px;\r\n  color: rgb(207, 196, 196);\n}\n.text3 {\r\n  position: fixed;\r\n  top: 50px;\r\n  left: 80%;\r\n  z-index: 2;\r\n  color: rgb(255, 255, 255);\n}\n.text {\r\n  position: fixed;\r\n  top: 210px;\r\n  left: 20px;\r\n  right: 10px;\r\n  z-index: 2;\r\n  line-height: 20px;\r\n  font-size: 15px;\r\n  letter-spacing: 1px;\r\n  color: rgb(65, 65, 65);\n}\n.nav-left uni-image {\r\n  width: 100%;\r\n  height: 180px;\n}\n.bottom-btn1 {\r\n  position: fixed;\r\n  bottom: 0px;\r\n  background-color: #2f98e9;\r\n  width: 100%;\r\n  height: 85rpx;\r\n  color: white;\r\n  text-align: center;\r\n  line-height: 85rpx;\r\n  font-size: 32rpx;\n}\r\n", ""]);
 // Exports
 module.exports = exports;
 
