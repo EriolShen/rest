@@ -154,7 +154,7 @@
             <view class="time" style="width: auto"
               ><text
                 style="
-                  color: #589fd5;
+                  color: #3597fc;
                   text-align: center;
                   padding-left: 10px;
                   padding-right: 10px;
@@ -163,13 +163,17 @@
               ></view
             >
             <view>开始时间：</view
-            ><text style="font-weight: 900">{{ leave.startDate }}</text
+            ><text style="font-weight: 900; padding-left: 12px">{{
+              leave.startDate
+            }}</text
             ><br />
             <view>结束时间：</view
-            ><text style="font-weight: 900">{{ leave.endDate }}</text
+            ><text style="font-weight: 900; padding-left: 12px">{{
+              leave.endDate
+            }}</text
             ><br />
             <view>审批流程：</view
-            ><text
+            ><text style="padding-left: 12px"
               >共{{
                 leave.twoCheck != ""
                   ? leave.threeCheck != ""
@@ -177,14 +181,19 @@
                     : "2"
                   : "1"
               }}步
-              <text style="color: #589fd5; margin-left: 5px">查看></text></text
+              <text style="color: #3597fc; margin-left: 5px">查看></text></text
             ><br />
             <view>紧急联系人：</view
             ><text style="padding-left: 12px">{{ leave.phone }}</text>
             <br />
             <view>请假原因：</view
             ><text
-              style="vertical-align: top; width: 77%; display: inline-block"
+              style="
+                vertical-align: top;
+                width: 77%;
+                display: inline-block;
+                padding-left: 12px;
+              "
               >{{ leave.reason }}</text
             >
 
@@ -197,11 +206,15 @@
               ><image :src="leave.imgFile" @click="imgFileClick"></image></view
             ><br v-if="leave.imgFile != ''" />
             <view style="main-content-info-left-file">发起位置：</view
-            ><text style="color: #589fd5">{{ leave.address }}</text
+            ><text style="color: #3597fc; padding-left: 12px">{{
+              leave.address
+            }}</text
             ><br />
-            <view>抄送人：</view><text>{{ leave.cc }}</text
+            <view>抄送人：</view
+            ><text style="padding-left: 24px">{{ leave.cc }}</text
             ><br />
-            <view>宿舍信息：</view><text>{{ leave.dorm }}</text
+            <view>宿舍信息：</view
+            ><text style="padding-left: 12px">{{ leave.dorm }}</text
             ><br />
 
             <!-- <view style="color: #f79a0d; width: 100%"
@@ -693,7 +706,7 @@ page {
   z-index: 999;
 }
 
-//导航
+/*导航*/
 .nav {
   position: fixed;
   width: 100%;
@@ -946,14 +959,15 @@ page {
 }
 
 .main-content-info-left view {
-  display: inline-block;
-  width: 150rpx;
+  display: inline;
+
   /* background-color: green; */
 }
 
 .main-content-info-left text {
   /* background-color: red; */
-
+  /*总体改的话"查看"后移太多*/
+  /*padding-left: 12px;*/
   color: #657181;
 }
 
@@ -1153,7 +1167,7 @@ page {
   color: #66717f;
 }
 .time {
-  position: absolute;
+  position: fixed;
   z-index: 1000;
   background: rgba(51, 153, 255, 0.1);
   border: 1px solid #91c3fd;
@@ -1165,6 +1179,6 @@ page {
   padding-top: 0.6vw;
   display: block;
   right: 6%;
-  top: 43%;
+  top: 47.5%;
 }
 </style> 

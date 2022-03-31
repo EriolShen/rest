@@ -71,7 +71,7 @@
     <label>总时间<text class="subRed">*必填</text></label>
     <input placeholder="1天3小时" v-model="countDate" />
     <label>是否离校<text class="subRed">*必填</text></label>
-    <input placeholder="离校为黄色,否为黑色." v-model="bye" />
+    <input placeholder="离校或否" v-model="bye" />
     <label>紧急联系人<text class="subRed">*必填</text></label>
     <input placeholder="" v-model="phone" />
     <label>请假原因<text class="subRed">*必填</text></label>
