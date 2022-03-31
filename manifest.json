@@ -2,8 +2,8 @@
     "name" : "今日请假",
     "appid" : "__UNI__7D8A0A0",
     "description" : "",
-    "versionName" : "2.1.0",
-    "versionCode" : 210,
+    "versionName" : "2.1.2",
+    "versionCode" : 212,
     "app-plus" : {
         /* 5+App特有相关 */
         "modules" : {},

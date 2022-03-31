@@ -20,8 +20,7 @@
       <br />
       <p>2022-3-31更新内容:</p>
       <br />
-      <p>-修改文字间隙</p>
-      <p>-修复部分手机"请假时长"文本框位移问题</p>
+      <p>-修改"我的 请假申请"中的文字间隙</p>
       <br />
 
       <p>2022-3-13更新内容:</p>
@@ -62,14 +61,14 @@ export default {
 
 <style>
 .text1 {
-  position: fixed;
+  position: absolute;
   top: 105px;
   left: 88px;
   z-index: 2;
   color: rgb(255, 255, 255);
 }
 .text2 {
-  position: fixed;
+  position: absolute;
   top: 130px;
   left: 88px;
   z-index: 2;
@@ -77,14 +76,14 @@ export default {
   color: rgb(207, 196, 196);
 }
 .text3 {
-  position: fixed;
+  position: absolute;
   top: 50px;
   left: 80%;
   z-index: 2;
   color: rgb(255, 255, 255);
 }
 .text {
-  position: fixed;
+  position: absolute;
   top: 210px;
   left: 20px;
   right: 10px;
@@ -100,7 +99,7 @@ export default {
 }
 
 .bottom-btn1 {
-  position: fixed;
+  position: absolute;
   bottom: 0px;
   background-color: #2f98e9;
   width: 100%;

@@ -1167,7 +1167,7 @@ page {
   color: #66717f;
 }
 .time {
-  position: fixed;
+  position: absolute;
   z-index: 1000;
   background: rgba(51, 153, 255, 0.1);
   border: 1px solid #91c3fd;
@@ -1179,6 +1179,6 @@ page {
   padding-top: 0.6vw;
   display: block;
   right: 6%;
-  top: 47.5%;
+  top: 43%;
 }
 </style> 
