@@ -1179,6 +1179,7 @@ page {
   padding-top: 0.6vw;
   display: block;
   right: 6%;
-  top: 43%;
+  top: 276px;
+  bottom: 332px;
 }
 </style> 
